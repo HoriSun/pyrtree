@@ -6,3 +6,5 @@ import rtree
 
 Rect = rect.Rect
 RTree = rtree.RTree
+
+NullRect = rect.NullRect

@@ -4,7 +4,7 @@ if __name__ == "__main__":
     mypath = os.path.dirname(sys.argv[0])
     sys.path.append(os.path.abspath(os.path.join(mypath, "../../")))
 
-from pyrtree import Rect, RTree
+from pyrtree import Rect, RTree, NullRect
 #from pyrtree.rect import *
 
 import collections
